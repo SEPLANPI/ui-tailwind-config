@@ -2,7 +2,6 @@ module.exports = {
   darkMode: "media", // or 'class'
   theme: {
     colors: {
-      // Definindo as cores do tema padrão
       gray: {
         50: "#f8f9fa",
         100: "#f1f3f5",
@@ -187,6 +186,22 @@ module.exports = {
       xl: "88em", // 1408px
     },
     extend: {
+      colors: {
+        background: "white",
+        foreground: "#09090B",
+        primary: {
+          DEFAULT: "#034793",
+          foreground: 'white',
+        },
+        secondary: {
+          DEFAULT: "#f8f9fa",
+          foreground: "#212529",
+        },
+        muted: {
+          DEFAULT: "#ced4da",
+          foreground: "#868e96",
+        },
+      },
       borderRadius: {
         xs: "calc(0.125rem * var(--mantine-scale))",
         sm: "calc(0.25rem * var(--mantine-scale))",
