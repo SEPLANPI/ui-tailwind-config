@@ -140,6 +140,7 @@ module.exports = {
       },
     },
     fontFamily: {
+      montserrat: 'var(--font-montserrat)',
       sans: [
         "Figtree, -apple-system",
         "BlinkMacSystemFont",
