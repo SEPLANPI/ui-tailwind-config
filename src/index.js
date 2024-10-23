@@ -187,6 +187,9 @@ module.exports = {
       xl: "88em", // 1408px
     },
     extend: {
+      borderColor: {
+        DEFAULT: '#ced4da',
+      },
       colors: {
         background: "white",
         foreground: "#09090B",
