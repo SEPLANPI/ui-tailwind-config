@@ -138,6 +138,8 @@ module.exports = {
         0: "#ffffff", // White
         1000: "#000000", // Black
       },
+      white: "#fff",
+      black: '#000'
     },
     fontFamily: {
       montserrat: 'var(--font-montserrat)',
@@ -192,17 +194,17 @@ module.exports = {
       },
       colors: {
         background: "white",
-        foreground: "#09090B",
+        foreground: "#212529",
         primary: {
           DEFAULT: "#034793",
           foreground: 'white',
         },
         secondary: {
           DEFAULT: "#f8f9fa",
-          foreground: "#212529",
+          foreground: "#495057",
         },
         muted: {
-          DEFAULT: "#ced4da",
+          DEFAULT: "#e9ecef",
           foreground: "#868e96",
         },
       },
