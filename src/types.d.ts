@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss"
+
 declare module "@ui/tailwind-config" {
-  export default Config
+  const theme: Config
+  export default theme
 }
